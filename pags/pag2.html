@@ -9,9 +9,100 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Workbench&display=swap" rel="stylesheet">
 
-    <title>pag4</title>
+    <title>Carrousel</title>
+    <style>
+        h1{
+            color:rgb(43, 16, 141);
+        }
+        body{
+            background-color:black;
+            padding: 10px;
+        }
+        p{
+            color:blueviolet
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Cuando el Universo te Dice Cosas</h1>
+    <p><strong> La aventura de hoy se dio por que los 2 gatos decidieron jugar un juego en donde los gatos queria poner a prueba al destino a ver en cuanto tiempo los podia juntar si solo estaban caminando por lugares randoms</strong></p>
+    <style>
+        .carousel-item img {
+          width: 650px; /* Establece el ancho deseado para todas las imágenes */
+          height: 550px; /* Establece la altura deseada para todas las imágenes */
+          object-fit: contain; /* Ajusta la imagen para ajustarse al contenedor sin ser cortada */
+        }
+        #carouselExampleCaptions{
+            background-color: rgb(1, 1, 14);
+            padding: 10px;
+        }
+        
+      </style>
+      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="gatoclases.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Uno de los gatos se encontraba estudiado</h5>
+              <p>Uno de los gatos se supone que estaba estudiando pero mas estaba pensando cuanto tiempo le llevaria encontrar al otro michi</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gatoauto.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El otro michi recien estaba de camino hacia el destino XD</h5>
+              <p>El otro michi mientras iva en un auto tambien estab pensando en cuanto tiempo iva a encontrar al otro michi </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gatobaño.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El gato ya termino sus estudios y camina distrido</h5>
+              <p>El gato que estaba estudiando a habia decidido ir a caminar por ahi distrayendose se metio a un lugar que nunca habia entrado asi nomas por que si</p>
+            </div>
+          </div>
+          <!-- Agrega los siguientes tres elementos de imagen -->
+          <div class="carousel-item">
+            <img src="gatodulces.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Y el otro michi solo caminaba aun mas distrido</h5>
+              <p>Este michi al andar caminando curiosamente le llamaron la atencion unos dulces que estaban en oferta XD y se los compro asi nomas por que si </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gatoreunido2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Inesperada Sorpresa</h5>
+              <p>Y las acciones anteriores de ambos michis hicieron que ambos se encontraran de una manera tan exacta y sorpresiva que hasta se asustaronXD </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="gatoreunido.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El poder del Universo</h5>
+              <p>En este punto ambos estaban tan sorprendidos ya que ninguno de los 2 esoeraba encontrar al otro tan rapido y solo dijieron "a"XD Y asi el universo les dijo <strong>ustedes va a estar jutos y les va gustar FIN</strong> </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
